@@ -7,11 +7,14 @@
 </head>
 <body>
     <script>
-        function saymyname(){
-            alert("Hi");
+        function submit(){
+            var name = document.getElementById("name").value;
+            alert("Hi " + name);
         }
     </script>
 
-    <button onclick="saymyname()"></button>
+    <label>Name</label>
+    <input id="name" type="text" value=""/>
+    <button onclick="submit()">Click me</button>
 </body>
 </html>
