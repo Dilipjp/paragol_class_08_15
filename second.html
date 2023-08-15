@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <script>
-        document.write("Paragol is here");
+      document.write("Paragol is here");
+      var a = 33;
+      var b = 10;
+      var brline = "<br>";
+      var c = "Paragol"; // global variable
+      document.write(brline);
+      document.write(a * b);
+      document.write(brline);
+
+      function sayhi() {
+        var name = "Dilip"; // local variable
+        document.write(name);
+        document.write(brline);
+        document.write(c);
+      }
+      sayhi();
+      document.write("a+b = ");
+      document.write(a * b);
+      document.write(brline);
+
+      document.write("a-b = ");
+      document.write(a - b);
+      document.write(brline);
+
+      document.write("a*b = ");
+      document.write(a * b);
+      document.write(brline);
+
+      document.write("a/b = ");
+      document.write(a / b);
+      document.write(brline);
+
+      document.write("a%b = ");
+      document.write(a % b);
+      document.write(brline);
+
+      document.write("--a = ");
+      document.write(--a);
+      document.write(brline);
+
+      document.write("++b = ");
+      document.write(++b);
+      document.write(brline);
+
+      document.write("(a==b) => ");
+      document.write(a == b);
+      document.write(brline);
+
+      var m = true;
+      var n = false;
+      document.write("m & n => ");
+      document.write(m && n);
+      document.write(brline);
+
+      document.write("m || n => ");
+      document.write(m || n);
+      document.write(brline);
     </script>
-</body>
+  </body>
 </html>
