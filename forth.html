@@ -37,16 +37,28 @@
       document.write("<br>");
       do {
         document.write(count + "  ");
-        count = count+6;
+        count = count + 6;
       } while (count < 100);
 
       document.write("<br>");
       var index;
-      for ( index = 0;  index < 10; index++) {
+      for (index = 0; index < 10; index++) {
         document.write(index);
-        
       }
 
+      document.write("<br>");
+
+      grades = [100, 90, 59, 78];
+      //   document.write(grade);
+      test = [425, "Dilip", true];
+      document.write(test);
+      document.write(typeof test[1]);
+      document.write(grade);
+
+      document.write("<br>");
+      grades.forEach((element) => {
+        document.write(element + " ");
+      });
     </script>
   </body>
 </html>
